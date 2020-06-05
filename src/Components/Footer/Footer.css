@@ -1,0 +1,68 @@
+.footer {
+  width: 100%;
+}
+
+.footer-bottom {
+  background-color: #202020;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-bottom ul li a {
+  line-height: 30px;
+  color: #ffffff;
+  position: relative;
+  margin-left: 23px;
+  display: block;
+  text-decoration: none;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.footer-title a {
+  color: #ffffff;
+  font-size: 1.4rem;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.footer-item ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-item ul li a {
+  text-decoration: none;
+}
+
+.footer-container {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer .link, .footer .clearfix {
+  margin: 20px 0 0 100px;
+  color: #999;
+}
+/*# sourceMappingURL=Footer.css.map */
